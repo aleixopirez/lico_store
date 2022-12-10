@@ -48,20 +48,30 @@ body {
 }
 
 /* footer */
-#page-footer .ftcontainer{
+
+#page-footer{
+    background: black;
     display: flex;
-    padding: 70px 0;
+    flex-flow: column wrap;
     justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#page-footer .ftcontainer{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
     background-color: #000;
+    color: #fff;
 
 }
 
 #page-footer a{
-    color: #fff;
+    text-decoration: none;
+    
 }
 
 .footer__cta-ftcontainer{
@@ -70,4 +80,30 @@ body {
 }
 div .card {
     justify-content: center;
+}
+
+/* Miguel's code */
+
+.footer__title{
+    text-align: center;
+}
+
+.footer__contact{
+    padding: 20px;
+}
+
+.footer__social-media{
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__social-media li:first-child{
+    margin-left:0px;
+}
+
+.footer__social-media li{
+    margin-left: 25px;
 }
