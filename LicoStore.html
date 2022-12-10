@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LicoStore</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+    <!-- kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!-- menu y logo -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 bg-light" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="IMAGENES\LicoShop.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Marcas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="samsug.html">Whisky</a></li>
+                            <li><a class="dropdown-item" href="lg.html">Tequila</a></li>
+                            <li><a class="dropdown-item" href="sony.html">Ron</a></li>
+                            <li><a class="dropdown-item" href="panasonic.html">Aguardiente</a></li>
+                            <li><a class="dropdown-item" href="panasonic.html">Cerveza</a></li>
+                            <li><a class="dropdown-item" href="panasonic.html">Brandy</a></li>
+                            <li><a class="dropdown-item" href="panasonic.html">Vinos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <!-- redes -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+                    </li>               
+                    
+                    
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Suscripción" aria-label="Suscripcion">
+                    <button class="btn btn-outline-dark" type="submit">Suscripción</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/slide1.jpg" class="d-block w-100" alt="T1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slide2.jpg" class="d-block w-100" alt="T2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slide3.jpg" class="d-block w-100" alt="T3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- novedades o noticias -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
+        <h1 class="titulo">Noticias</h1>
+        <div class="col">        
+            <div class="card">
+                <img src="IMAGENES\Ginebra.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ginebra</h5>
+                    <p class="card-text">La ginebra es una bebida alcohólica destilada que posee 
+                        un sabor predominante a nebrinas, los frutos del enebro. La ginebra es una
+                        de las categorías de destilados más amplia, con diversas regiones de producción,
+                        estilos.
+                        content.</p>
+                    <a href="#" class="btn btn-primary buy">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="IMAGENES\Vodka.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vodka</h5>
+                    <p class="card-text">El o la vodka es una bebida destilada. Se discute el origen de la misma aunque el
+                         nombre actual es ruso. Se produce generalmente a través de la fermentación de granos y otras plantas 
+                         ricas en almidón, como el centeno, trigo, patata o remolacha.
+                        content.</p>
+                    <a href="#" class="btn btn-primary buy">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="IMAGENES\SomethingEspecial.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Whisky</h5>
+                    <p class="card-text">es una bebida alcohólica y espirituosa obtenida por la destilación de la 
+                        malta fermentada de cereales como cebada, trigo, centeno y maíz, y su posterior añejamiento 
+                        en barriles de madera, tradicionalmente de roble blanco
+                        content.</p>
+                    <a href="#" class="btn btn-primary buy">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- servicios -->
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="IMAGENES\Vinos.jpg" alt="Desarrollo" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Vinos</h3>
+                    <p class="px-4">
+                        El vino es una bebida hecha de uva, mediante la fermentación alcohólica de su mosto o zumo.
+                        La fermentación se produce por la acción metabólica de levaduras, 
+                        que transforman los azúcares naturales del fruto en etanol y gas en forma de dióxido de carbono.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="IMAGENES\Tequila.jpg" alt="Concepto Diseño" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Tequila</h3>
+                    <p class="px-4">
+                        El tequila es una bebida alcohólica obtenida del destilado, originaria de Tequila, en el
+                         estado de Jalisco, México. Se elabora a partir de la fermentación y destilado (al igual
+                          que el mezcal) del jugo extraído de una planta del género Agave, llamada "agave tequilero.
+                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="IMAGENES\beers.jpg" alt="Concepto Diseño" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Cervezas</h3>
+                    <p class="px-4">
+                        La cerveza ​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica 
+                con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura
+                 y se aromatiza a menudo con lúpulo, entre otras plantas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="IMAGENES\cocktails.jpg" alt="Concepto Diseño" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Cocteles</h3>
+                    <p class="px-4">
+                        es una preparación a base de una mezcla de diferentes bebidas,
+                        que contiene por lo general dos o más tipos de bebidas, aunque algunas de ellas
+                         pueden ser bebidas no alcohólicas, a base de ingredientes como jugos, frutas, miel, leche o crema, especias
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="IMAGENES\Ron.jpg" alt="Concepto Diseño" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Ron</h3>
+                    <p class="px-4">
+                        Es un ron de corte moderno, aromático y ligeramente frutal. Es seco,
+                        fino y elegante. Fruto de un intenso añejamiento en barricas de roble americano.
+                        Su armonioso sabor, su fina textura, su aromaticidad y elegante presencia lo convierten
+                        en un ron insustituible en esta categoría.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="IMAGENES\Coñac.jpg" alt="Concepto Diseño" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">coñac</h3>
+                    <p class="px-4">
+                        El coñac es un tipo de brandy que se elabora a partir del vino de uva blanca de las cepas
+                         cultivadas en los alrededores de la ciudad homónima,
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- footer con metodologia BEM-->
+    <footer id="page-footer">
+        <div class="ftcontainer">
+            <div class="footer__menu">
+                <figure>
+                    <img src="IMAGENES\LQ.jpg" alt="" class="footer__logo" width="200">
+                </figure>
+            </div>
+            <!-- horarios de atención al publico -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Horario</h4>
+                <span class="footer__info">
+                    Lunes a Viernes: 8:00 am a 7:00pm | Sábados: 9:00 am a 5:00pm
+                </span>
+            </div>
+            <!-- mapa del sitio o enlaces -->
+            <div class="footer__menu">
+                <h4 class="footer__title">
+                    Mapa del sitio
+                </h4>
+                <ul class="ft-link">
+                    <li class="footer__link">
+                        <a href="nosotros.html" target="_blank">Nosotros</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="samsug.html" target="_blank">Samsug</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="condiciones.html" target="_blank">Términos y Condiciones</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- contactos -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Contactos</h4>
+                <p class="footer__info">
+                    <i class="fas fa-envelope"></i>
+                    Email: aleixopirez@hotmail.com
+                </p>
+
+                <p class="footer__info">
+                    <i class="fas fa-phone"></i>
+                    Teléfono: 6043315854
+                </p>
+
+                <p class="footer__info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Dirección: Carrera 52 N 85-20
+                </p>
+            </div>
+        </div>
+        <div class="footer__contact">
+            <ul class="footer__social-media">
+                <li>
+                    <a target="_blank" href="https://wa.me/3187234670" class="ft-social">   
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" class="ft-social" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" class="ft-social" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" class="ft-social" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+            
+            </a>
+            
+            
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+</html>
